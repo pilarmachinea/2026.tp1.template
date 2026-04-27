@@ -39,7 +39,7 @@ public class PrestamoServiceImpl implements PrestamoService {
 
         long prestamosActivos = obtenerPrestamosActivosPorSocio(dni).size();
         if (prestamosActivos >= socio.getLimitePrestamos()) {
-            throw new LimitePrestamosAlcanzadoException(dni, socio.getLimitePrestamos());
+            throw new LimitePrestamosAlcanzadosException(dni, socio.getLimitePrestamos());
         }
 
         prestamoRepository.guardar(Prestamo.crear(isbn, dni));

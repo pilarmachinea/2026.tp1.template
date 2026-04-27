@@ -1,7 +1,7 @@
 package com.BiblioTech.service;
 
-import com.bibliotech.exception.BibliotecaException;
-import com.bibliotech.model.Prestamo;
+import com.BiblioTech.exception.BibliotecaException;
+import com.BiblioTech.model.Prestamo;
 import java.util.List;
 
 public interface PrestamoService {
