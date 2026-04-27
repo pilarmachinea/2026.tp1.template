@@ -50,7 +50,7 @@ public class Main {
                     String titulo = scanner.nextLine().trim();
                     System.out.print("Autor: ");
                     String autor = scanner.nextLine().trim();
-                    System.out.print("Anio: ");
+                    System.out.print("Año: ");
                     int anio = Integer.parseInt(scanner.nextLine().trim());
                     System.out.println("Categoria (1=CIENCIA 2=TECNOLOGIA 3=HISTORIA 4=LITERATURA 5=MATEMATICA 6=ARTE 7=OTRO): ");
                     int cat = Integer.parseInt(scanner.nextLine().trim());
