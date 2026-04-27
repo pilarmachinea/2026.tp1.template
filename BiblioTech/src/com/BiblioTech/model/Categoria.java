@@ -7,5 +7,6 @@ public enum Categoria {
     LITERATURA,
     MATEMATICA,
     ARTE,
+    AUTO_AYUDA,
     OTRO
 }
